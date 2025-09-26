@@ -1,5 +1,5 @@
-import { use, useState } from "react";
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [ isOpen, setIsOpen ] = useState(false);
@@ -8,10 +8,54 @@ const Navbar = () => {
         <nav className="bg-white shadow-md p-5 flex justify-center">
             <div className="font-bold">
                 <ul className="hidden md:flex space-x-6 items-center">
-                    <li><Link to="/about" className="text-gray-600 hover:text-gray-900">About</Link></li>
-                    <li><Link to="/skill" className="text-gray-600 hover:text-gray-900">Skills</Link></li>
-                    <li><Link to="/project" className="text-gray-600 hover:text-gray-900">Project</Link></li>
-                    <li><Link to="/contact" className="text-gray-600 hover:text-gray-900">Contact</Link></li>
+                    <li>
+                        <NavLink
+                            to="/about"
+                            className= {({ isActive}) => 
+                                isActive 
+                                ? "text-gray-900"
+                                : "text-gray-600 hover:text-gray-900"
+                            }
+                        >
+                            About
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/project"
+                            className= {({ isActive}) => 
+                                isActive 
+                                ? "text-gray-900"
+                                : "text-gray-600 hover:text-gray-900"
+                            }
+                        >
+                            Projects
+                        </NavLink>
+                    </li>
+                    <li>        
+                        <NavLink
+                            to="/skills"
+                            className={({ isActive}) => 
+                                isActive
+                                ? "text-gray-900"
+                                : "text-gray-600 hover:text-gray-900"
+                            }
+                        >
+                            Skills
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/contact"
+                            className={({ isActive }) => 
+                                isActive
+                                ? "text-gray-900"
+                                : "text-gray-600 hover:text-gray-900"
+                            }
+                        >
+                            Contact
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
             <div className="md:hidden">
