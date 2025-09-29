@@ -1,70 +1,39 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
+// import React, { useState } from "react";
+// import { useLocation, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
-    const [ isOpen, setIsOpen ] = useState(false);
+// const Navbar = ({ refs }) => {
+//   const navigate = useNavigate();
+//   const location = useLocation();
+//   const handleNavClick = (route, ref) => {
+//     navigate(route);
+//     ref.current.scrollIntoView({ behavior: "smooth" });
+//   };
 
-    return (
-        <nav className="bg-white shadow-md p-5 flex justify-center">
-            <div className="font-bold">
-                <ul className="hidden md:flex space-x-6 items-center">
-                    <li>
-                        <NavLink
-                            to="/about"
-                            className= {({ isActive}) => 
-                                isActive 
-                                ? "text-gray-900"
-                                : "text-gray-600 hover:text-gray-900"
-                            }
-                        >
-                            About
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/project"
-                            className= {({ isActive}) => 
-                                isActive 
-                                ? "text-gray-900"
-                                : "text-gray-600 hover:text-gray-900"
-                            }
-                        >
-                            Projects
-                        </NavLink>
-                    </li>
-                    <li>        
-                        <NavLink
-                            to="/skills"
-                            className={({ isActive}) => 
-                                isActive
-                                ? "text-gray-900"
-                                : "text-gray-600 hover:text-gray-900"
-                            }
-                        >
-                            Skills
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/contact"
-                            className={({ isActive }) => 
-                                isActive
-                                ? "text-gray-900"
-                                : "text-gray-600 hover:text-gray-900"
-                            }
-                        >
-                            Contact
-                        </NavLink>
-                    </li>
-                </ul>
-            </div>
-            <div className="md:hidden">
-                <button onClick={() => setIsOpen(!isOpen)}>
-                    {isOpen}
-                </button>
-            </div>
-        </nav>
-    )
-};
+//   const navItems = [
+//     { label: "About", route: "/about", ref: refs.aboutRef },
+//     { label: "Projects", route: "/project", ref: refs.projectRef },
+//     { label: "Skills", route: "/skills", ref: refs.skillRef },
+//   ];
+//   return (
+//     <nav className="bg-white shadow-md p-5 flex justify-center">
+//       <ul className="flex space-x-4 items-center font-bold">
+//         {navItems.map((item) => (
+//             <li key={item.route}>
+//                 <button
+//                     className={
+//                         location.pathname === item.route
+//                         ? "text-gray-900"
+//                         : "text-gray-600 hover:text-gray-900" 
+//                     }
+//                     onClick={() => handleNavClick(item.route, item.ref)}
+//                 >
+//                     {item.label}
+//                 </button>
 
-export default Navbar;
+//             </li>
+//         ))}
+//       </ul>
+//     </nav>
+//   )
+// }
+// export default Navbar;

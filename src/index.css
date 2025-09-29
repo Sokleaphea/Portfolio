@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+.marquee {
+    animation: marquee 10s linear infinite;
+    white-space: nowrap;
+    display: flex;
+    width: fit-content; /* Ensures the animation is based on content width */
+}

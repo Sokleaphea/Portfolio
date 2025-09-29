@@ -4,19 +4,11 @@ import Photo from "../assets/photo.jpg"
 
 const About = () => {
     return (
-        
-        <div className="m-10">
-            <div className="flex justify-between items-center p-10">
-                <div className="">
-                    <h1 className="text-[32px] font-bold">About Me</h1>
-                    <p className="text-[18px]">Hello, I'm Leaphea, a sophomore Computer Science student specializing in software engineering.</p>
-                    <p className="text-[18px]">I'm interested in web, mobile and game development.</p>
-                    <p className="text-[18px]">I've worked on projects using React, Javascript, Node.js, Tailwind CSS, C++, C and Java.</p>
-                    <p className="text-[18px]">I'm currently learning React Native, Unity , and Flutter.</p>
-                </div>
-                <div>
-                    <img src={Photo} alt="About Me" className="w-60 h-60 object-cover rounded-full"/>
-                </div>
+        <div className="w-[100%]">
+            <div className="m-10 space-y-3">
+                <h1 className="text-[32px] font-bold">About Me</h1>
+                <p>Sophomore Computer Science student at CADT, Phnom Penh, Cambodia. I'm passionate about building interactive and creative digital experiences, with a strong interest in game design and development.</p>
+                <p>I'm currently learning Unity, React Native, and Flutter, while also exploring algorithms and data structures. My goal is to grow as a developer and contribute to the real world through innovative projects and eventually create games that combine creativity and storytelling.</p>
             </div>
         </div>
     )
