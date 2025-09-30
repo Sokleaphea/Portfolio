@@ -9,3 +9,17 @@
     display: flex;
     width: fit-content; /* Ensures the animation is based on content width */
 }
+@keyframes typewriter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.typewriter {
+  opacity: 0;
+  animation: typewriter 0.05s forwards;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
+}

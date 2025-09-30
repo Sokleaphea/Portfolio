@@ -5,8 +5,8 @@ import Project from "./Project";
 import Contact from "./Contact";
 const RightPanel = () => {
     return (
-        <div>
-            <div className="">
+        <div className="overflow-hidden bg-[#000000]">
+            <div className="w-[100%] text-white">
                 <section id="about"><About /></section>
                 <section id="skills"><Skill /></section>
                 <section id="projects"><Project /></section>
