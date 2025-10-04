@@ -1,25 +1,23 @@
-import React, { use } from "react";
 import Photo from "../assets/photo.jpg"
 import { FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const name = "Aspiring Game Developer";
 
 const LeftPanel = () => {
     return (
-        <div className="fixed flex flex-col shadow-md h-screen bg-[#000000]">
-            <div className="bg-[#303030] text-white m-10 h-full flex flex-col justify-between ">
+        <div className="lg:fixed lg:p-5 flex flex-col shadow-md lg:h-screen bg-[#000000]">
+            <div className="bg-[#303030] text-white h-auto lg:ml-5 lg:h-full lg:justify-between flex flex-col">
                 <div className="space-y-3">
-                    <div className="items-center flex flex-col space-y-3 mb-10">
-                        <div className="w-100 h-100">
+                    <div className="items-center flex flex-col space-y-3 mb-10 sm:mb-5">
+                        <div className="lg:w-100 lg:h-100">
                             <img src={Photo} alt="Profile" className="w-full h-full object-cover" />
                         </div>
-                        <div className="text-[32px] font-bold mt-5">
-                            <h1>Sokleaphea PHON</h1>
+                        <div>
+                            <h1 className="font-bold px-4 text-[24px] sm:text-[30px] md:text-[36px]">Sokleaphea PHON</h1>
                         </div>
                         <div className="max-w-xs break-words text-center mx-auto">
                             <div className="space-y-3">
-                                <h1 className="text-[20px] font-bold">Software Engineering Student</h1>
+                                <h1 className="text-[20px] font-bold px-4 sm:text-[16px] md:text-[24px]">Software Engineering Student</h1>
                                 <p className="text-[16px] flex justify-center tracking-wide items-center text-[#82eefd]">
                                     {name.split("").map((char, i) => (
                                         <span 
@@ -41,7 +39,7 @@ const LeftPanel = () => {
                             href="https://github.com/Sokleaphea"
                             target="_blank"
                         >
-                            <button className="hover:animate-bounce cursor-pointer flex flex-row items-center space-x-2 hover:text-[#82eefd]">
+                            <button className="transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer flex flex-row items-center space-x-2 hover:text-[#82eefd]">
                                 <FaGithub className="w-5 h-5"/>
                                 <h1>GitHub</h1>
                             </button>
@@ -50,7 +48,7 @@ const LeftPanel = () => {
                     <div>
                         <a 
                             href="#contact"
-                            className="transition-all duration-300 hover:animate-bounce cursor-pointer flex flex-row items-center space-x-2 hover:text-[#82eefd]"
+                            className="transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer flex flex-row items-center space-x-2 hover:text-[#82eefd]"
                         >
                             <h1>Contact Me</h1>
                            

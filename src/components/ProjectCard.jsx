@@ -10,7 +10,7 @@ import css from "../assets/css.jpg"
 const ProjectCard = () => {
     return (
         <div className="">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5 justify-center items-center mx-auto">
                 <div className="p-10 rounded-2xl shadow-md transition duration-300 hover:scale-105 bg-[#303030]">
                     <a
                         href="https://github.com/Sokleaphea/McDonald-Clone"
@@ -58,7 +58,7 @@ const ProjectCard = () => {
                 </div>
                 <div className="p-10 rounded-2xl shadow-md transition duration-300 hover:scale-105 bg-[#303030]">
                     <a 
-                        href="https://github.com/Sokleaphea/Quiz" 
+                        href="https://github.com/Sokleaphea/Portfolio" 
                         target="_blank"
                         className="flex flex-col justify-center items-center space-y-3"
                     >

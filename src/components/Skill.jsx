@@ -13,17 +13,17 @@ import Unity from "../assets/unity.jpg"
 import Flutter from "../assets/flutter.png"
 const Skill = () => {
     return (
-        <div className="m-10">
-            <div className="space-y-3">
-                <div className="">
+        <div>
+            <div className="space-y-3 lg:m-10">
+                <div>
                     <h1 className="text-[32px] font-bold">Tech Stack</h1>
                 </div>
                 <div className="flex items-center space-x-2">
                     <div className="w-3 h-3 bg-[#000000] border-white border rounded-full"></div>
-                    <hr className="w-1/3"/>  
+                    <hr className="w-10"/>  
                 </div>
                 <div className="">
-                    <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-2 font-bold">
+                    <div className="grid grid-cols-2 md:grid-cols-5 gap-2 font-bold">
                         <div className="flex flex-col items-center transition duration-300 hover:scale-105">
                             <img src={HTML} alt="HTML" className="h-24 w-24 m-4"/>
                             <span className="text-center mt-2">HTML</span>
@@ -72,7 +72,7 @@ const Skill = () => {
                     </div>
                     <div className="flex items-center space-x-2">
                         <div className="w-3 h-3 bg-[#000000] border-white border rounded-full"></div>
-                        <hr className="w-1/3"/>  
+                        <hr className="w-10"/>  
                     </div>
                         <div className="overflow-x-hidden font-bold max-w-xl mx-auto shadow-md m-4 rounded-2xl">
                             <div className="marquee gap-4 py-4">
