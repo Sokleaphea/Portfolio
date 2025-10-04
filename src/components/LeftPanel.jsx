@@ -1,12 +1,13 @@
 import Photo from "../assets/photo.jpg"
 import { FaGithub } from "react-icons/fa";
+import LoopingTypeWriter from "./LoopingTypeWriter"
 
-const name = "Aspiring Game Developer";
+// const name = "Aspiring Game Developer";
 
 const LeftPanel = () => {
     return (
-        <div className="lg:fixed lg:p-5 flex flex-col shadow-md lg:h-screen bg-[#000000]">
-            <div className="bg-[#303030] text-white h-auto lg:ml-5 lg:h-full lg:justify-between flex flex-col">
+        <div className="lg:fixed top-0 lg:p-5 flex flex-col shadow-md lg:h-screen bg-[#000000]">
+            <div className="bg-[#303030] text-white h-auto lg:ml-5 lg:h-full overflow-y-auto lg:justify-between flex flex-col">
                 <div className="space-y-3">
                     <div className="items-center flex flex-col space-y-3 mb-10 sm:mb-5">
                         <div className="lg:w-100 lg:h-100">
@@ -18,17 +19,9 @@ const LeftPanel = () => {
                         <div className="max-w-xs break-words text-center mx-auto">
                             <div className="space-y-3">
                                 <h1 className="text-[20px] font-bold px-4 sm:text-[16px] md:text-[24px]">Software Engineering Student</h1>
-                                <p className="text-[16px] flex justify-center tracking-wide items-center text-[#82eefd]">
-                                    {name.split("").map((char, i) => (
-                                        <span 
-                                            key={i}
-                                            className="typewriter"
-                                            style={{ animationDelay: `${i * 0.2}s` }}
-                                        >
-                                            {char === " " ? "\u00A0" : char}
-                                        </span>
-                                    ))}
-                                </p>
+                                <div className="text-[16px] flex justify-center tracking-wide items-center text-[#82eefd]">
+                                    <LoopingTypeWriter text="Aspiring Game Developer"/>
+                                </div>
                             </div>
                         </div>
                     </div>

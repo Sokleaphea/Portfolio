@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Project = () => {
     return (
-        <div className="space-y-3 lg:m-10">
+        <div className="space-y-3 lg:m-10 pt-8">
             <div>
                 <h1 className="text-[32px] font-bold">My Project</h1>
             </div>

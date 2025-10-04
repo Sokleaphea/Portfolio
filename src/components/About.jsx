@@ -4,7 +4,7 @@ import Photo from "../assets/photo.jpg"
 
 const About = () => {
     return (
-        <div className="text-white lg:m-10">
+        <div className="text-white lg:m-10 pt-12">
             <div>
                 <div className="space-y-3">
                     <h1 className="text-[32px] font-bold">About Me</h1>
@@ -16,8 +16,8 @@ const About = () => {
                     <p>I'm currently learning Unity, React Native, and Flutter, while also exploring algorithms and data structures. My goal is to grow as a developer and contribute to the real world through innovative projects and eventually create games that combine creativity and storytelling.</p>
                 </div>
             </div>
-            <div className="flex justify-start lg:flex-row flex-col lg:space-x-20 mt-5 md-space-y-3">
-                <div className="">
+            <div className="flex justify-start lg:flex-row flex-col lg:space-x-20 mt-5 md:space-y-3">
+                <div className="space-y-3">
                     <div className="flex flex-row space-x-1">
                         <h1 className="text-[#82eefd]">Name: </h1>
                         <p>Sokleaphea PHON</p>
@@ -31,7 +31,7 @@ const About = () => {
                         <p>Cambodia Academy of Digital Technology</p>
                     </div>
                 </div>
-                <div className="">
+                <div className="space-y-3">
                     <div className="flex flex-row space-x-1">
                         <h1 className="text-[#82eefd]">Birthday: </h1>
                         <p>May, 19 2005</p>

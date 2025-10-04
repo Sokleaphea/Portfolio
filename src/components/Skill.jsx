@@ -14,7 +14,7 @@ import Flutter from "../assets/flutter.png"
 const Skill = () => {
     return (
         <div>
-            <div className="space-y-3 lg:m-10">
+            <div className="space-y-3 lg:m-10 pt-8">
                 <div>
                     <h1 className="text-[32px] font-bold">Tech Stack</h1>
                 </div>
@@ -66,7 +66,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="space-y-3">
+                <div className="space-y-3 pt-8">
                     <div className="">
                         <h1 className="text-[32px] font-bold">Learning/Improve</h1>
                     </div>
