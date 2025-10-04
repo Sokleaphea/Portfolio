@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
     return (
         <div className="space-y-3 lg:m-10 pt-8">

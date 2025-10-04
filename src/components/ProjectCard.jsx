@@ -1,4 +1,3 @@
-import React from "react";
 import react from "../assets/react.png"
 import nodejs from "../assets/nodejs.jpg"
 import figma from "../assets/figma.jpg"

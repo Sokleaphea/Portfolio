@@ -1,7 +1,3 @@
-import React from "react";
-import Photo from "../assets/photo.jpg"
-
-
 const About = () => {
     return (
         <div className="text-white lg:m-10 pt-12">
