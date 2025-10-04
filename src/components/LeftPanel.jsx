@@ -1,4 +1,4 @@
-import Photo from "../assets/photo.jpg"
+import Photo from "../assets/photo.JPG"
 import { FaGithub } from "react-icons/fa";
 import LoopingTypeWriter from "./LoopingTypeWriter"
 
