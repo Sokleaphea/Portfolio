@@ -57,7 +57,7 @@ const ProjectCard = () => {
                 </div>
                 <div className="p-10 rounded-2xl shadow-md transition duration-300 hover:scale-105 bg-[#303030]">
                     <a 
-                        href="https://github.com/Sokleaphea/Portfolio" 
+                        href="https://portfolio-sokleapheaphon-beta.vercel.app/" 
                         target="_blank"
                         className="flex flex-col justify-center items-center space-y-3"
                     >
