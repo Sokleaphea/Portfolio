@@ -14,6 +14,10 @@ const Contact = () => {
                 <p className="text-[#82eefd]">Phone: </p>
                 <p>+85595505009</p>
             </div>
+            <div className="flex flex-row space-x-2">
+                <p className="text-[#82eefd]">Telegram: </p>
+                <p>@p_sokleaphea</p>
+            </div>
         </div>
     );
 };
