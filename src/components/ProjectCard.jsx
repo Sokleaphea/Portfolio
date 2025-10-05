@@ -31,7 +31,7 @@ const ProjectCard = () => {
                         target="_blank"
                         className="flex flex-col justify-center items-center space-y-3"
                     >
-                        Quiz App
+                        Quiz
                         <p>Tech Used:</p>
                         <div className="w-40 h-10 overflow-visible flex flex-row max-w-xs object-cover justify-center items-center rounded-full space-x-3">
                             <img src={react} alt="react" className="w-8 h-8 object-contain rounded-full shadow-md bg-white "/>
