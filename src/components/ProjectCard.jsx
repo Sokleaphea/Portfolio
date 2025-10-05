@@ -56,17 +56,37 @@ const ProjectCard = () => {
                     </a>
                 </div>
                 <div className="p-10 rounded-2xl shadow-md transition duration-300 hover:scale-105 bg-[#303030]">
-                    <a 
+                    {/* <a 
                         href="https://portfolio-sokleapheaphon-beta.vercel.app/" 
                         target="_blank"
                         className="flex flex-col justify-center items-center space-y-3"
-                    >
+                    > */}
+                    <div className="flex flex-col justify-center items-center">
                         Portfolio
                         <p>Tech Used:</p>
                         <div className="w-40 h-10 overflow-visible flex flex-row max-w-xs object-cover justify-center items-center rounded-full space-x-3">
                             <img src={react} alt="react" className="w-8 h-8 object-contain rounded-full shadow-md bg-white "/>
                         </div>
-                    </a>
+                    </div>
+                        <div className="flex flex-row justify-center space-x-5">
+                            <div className="p-1 transition-transform duration-300 hover:scale-105 hover:text-[#82eefd]">
+                                <a 
+                                    href="https://portfolio-sokleapheaphon-beta.vercel.app/"
+                                    target="_blank"
+                                >
+                                    View Demo
+                                </a>
+                            </div>
+                            <div className="p-1 transition-transform duration-300 hover:scale-105 hover:text-[#82eefd]">
+                                <a 
+                                    href="https://github.com/Sokleaphea/Portfolio"
+                                    target="_blank"
+                                >
+                                    View Code 
+                                </a>
+                            </div>
+                        </div>
+                    {/* </a> */}
                 </div>
             </div>
         </div>
