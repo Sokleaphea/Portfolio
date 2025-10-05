@@ -14,22 +14,32 @@ This portfolio includes various features such as:
 2. npm install
 3. npm run dev
 ## 🏆 Projects
-Most of my projects are done with the help of my team as shown in the contributor in the github repository.
-1.Bay Canteen:
-[Bay Canteen](https://baycanteen.vercel.app/)
-**Team**: Developed with 7 teammates.
-**My Contribution**: I worked on the Menu and History section.
-**Menu**: Handle user's vote and display the food that canteen's picked.
-**History**: Display the user's vote history.
-2.McDonald Clone:
-There is no live demo for this!
-**Repository**
-[McDonald](https://github.com/Sokleaphea/McDonald-Clone)
-**Team**: Developed with 6 teammates.
-**My Contribution**: I worked on Reward Page, Sign Up Email, and Search.
-3.Quiz:
-**Repository**
-[Quiz](https://github.com/Sokleaphea/Quiz)
-This is my first personal project built with React.
+Most of my projects were completed as part of a team. Individual contributions are noted below.  
+
+---
+
+### 1. Bay Canteen
+🔗 [Live Demo](https://baycanteen.vercel.app/)  
+**Team:** Developed with 7 teammates  
+**My Contribution:** Worked on the **Menu** and **History** sections  
+
+- **Menu:** Handled user votes and displayed the food selected by the canteen  
+- **History:** Displayed the user's vote history  
+
+---
+
+### 2. McDonald Clone
+❌ No live demo available  
+🔗 [Repository](https://github.com/Sokleaphea/McDonald-Clone)  
+**Team:** Developed with 6 teammates  
+**My Contribution:** Worked on the **Reward Page**, **Sign Up Email**, and **Search** functionality  
+
+---
+
+### 3. Quiz
+🔗 [Repository](https://github.com/Sokleaphea/Quiz)  
+This is my **first personal project** built with React  
+**My Contribution:** Entire project developed individually
+
 
 
